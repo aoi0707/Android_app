@@ -1,0 +1,64 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PurchasedItemApp</string>
+
+    <string name="title_main">I like</string>
+    <string name="title_mains">Shopping</string>
+    <string name="title_submain">Shop and have fun making lists!Purchased items can be registered in simple steps.</string>
+
+    <string name="title_login">ログイン</string>
+    <string name="text_title_signup">新規作成</string>
+    <string name="title_admin_page">管理者ページ</string>
+    <string name="title_Top_page">購入品管理</string>
+    <string name="title_selectsheet_name">登録氏名一覧</string>
+    <string name="title_selectsheet_listview">登録リスト一覧</string>
+    <string name="title_selectsheet_tabel">検索一覧</string>
+    <string name="title_selectsheet_product_list">品名リスト一覧</string>
+    <string name="title_selectsheet_product">品名一覧</string>
+
+    <string name="button_login">ログイン</string>
+    <string name="button_signup">新規作成</string>
+    <string name="button_regist">登録</string>
+    <string name="button_show">表示</string>
+    <string name="button_alldelete">全削除</string>
+    <string name="button_search">検索</string>
+
+    <string name="button_name">登録氏名一覧 </string>
+    <string name="button_regist_list">登録リスト一覧</string>
+    <string name="button_search_table">検索一覧</string>
+    <string name="button_product">品名一覧</string>
+    <string name="button_product_list">品名リスト一覧</string>
+    <string name="button_brand_name">ブランド名</string>
+    <string name="button_madein">産地</string>
+
+    <string name="text_hint_number">半角数字</string>
+    <string name="text_hint_text">全角・半角</string>
+    <string name="text_hint_email">例)mail@example.com</string>
+    <string name="text_hint_brand">ブランド名を入力してください</string>
+    <string name="text_hint_madein">産地を入力してください</string>
+
+    <string name="hint_search">検索</string>
+
+    <string name="text_annotation">※下記はどちらか一つ選択してください</string>
+    <string name="text_title_product_name">品名</string>
+    <string name="text_title_quantity">個数</string>
+    <string name="text_title_price">値段</string>
+    <string name="text_title_name">氏名</string>
+    <string name="text_title_email">Email</string>
+    <string name="text_title_password">Password</string>
+    <string name="text_kome">※</string>
+
+    <string name="text_title_brand">ブランド名：</string>
+    <string name="text_title_madein">産地：</string>
+    <string name="text_title_number">個数：</string>
+    <string name="text_title_prices">値段：</string>
+    <string name="text_title_names">氏名：</string>
+    <string name="text_title_emails">Email：</string>
+    <string name="text_title_passwords">Password：</string>
+
+    <string name="menu_item_top">購入管理画面</string>
+    <string name="menu_product_list">品名一覧</string>
+    <string name="menu_product_name_list">品名リスト一覧</string>
+    <string name="menu_search_list">検索一覧</string>
+    <string name="menu_item_app_end">終了</string>
+</resources>

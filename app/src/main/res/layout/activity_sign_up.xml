@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/text_backcolor"
+        android:layout_width="180dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#D3D09E"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_title_signup"
+        android:layout_width="181dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="5dp"
+        android:background="#A5A051"
+        android:gravity="center|center_horizontal"
+        android:text="@string/text_title_signup"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_ten3"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center|center_horizontal"
+        android:rotation="90"
+        android:text="■"
+        android:textColor="#C4B19879"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_ten2"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center|center_horizontal"
+        android:rotation="90"
+        android:text="■"
+        android:textColor="#C6C6B97A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_ten"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="303dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center|center_horizontal"
+        android:rotation="90"
+        android:text="■"
+        android:textColor="#C4E49F7E"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_form_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title_signup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="@string/text_title_name"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_Kome_name"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/text_kome"
+            android:textColor="#FF0000"
+            android:textSize="14sp" />
+
+        <!-- ellipsize：文字が行に収まりきらない末尾を「...」表示 -->
+        <!-- inputType：表示するキーボードを文字に指定 -->
+        <EditText
+            android:id="@+id/edit_text_hint_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:hint="@string/text_hint_text"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:minLines="1"
+            android:singleLine="true"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout
+        android:id="@+id/layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_form_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_title_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="@string/text_title_email"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_Kome_email"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/text_kome"
+            android:textColor="#FF0000"
+            android:textSize="14sp" />
+
+        <!-- ellipsize：文字が行に収まりきらない末尾を「...」表示 -->
+        <!-- inputType：表示するキーボードを文字に指定 -->
+        <EditText
+            android:id="@+id/edit_text_hint_email"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:hint="@string/text_hint_email"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:singleLine="true"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Password -->
+    <LinearLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_title_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="@string/text_title_password"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_Kome_password"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/text_kome"
+            android:textColor="#FF0000"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edit_text_hint_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:ellipsize="end"
+            android:hint="@string/text_hint_number"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:minLines="1"
+            android:singleLine="true"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- 新規作成 -->
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/button_signup"
+        android:textColor="#ffff"
+        android:textColorHighlight="#D6CF6B"
+        android:textColorLink="#D6CF6B"
+        android:textSize="15sp"
+        app:backgroundTint="#D6CF6B" />
+
+</RelativeLayout>

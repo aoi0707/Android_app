@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <!-- 氏名 -->
+
+    <!-- 新規作成 -->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/img4"/>-->
+
+    <TextView
+        android:id="@+id/text_title_like"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="#878243"
+        android:gravity="center_horizontal|top"
+        android:text="@string/title_main"
+        android:textColor="#68A7AE"
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+    <TextView
+        android:id="@+id/text_title_like_ground"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/title_main"
+        android:textColor="#ffff"
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_title_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/title_mains"
+        android:textColor="#E5B187"
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_title_shopping_ground"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/title_mains"
+        android:textColor="#ffff"
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/text_title_submain"
+        android:layout_width="381dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_submain"
+        android:textColor="#8334363A"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/button_signup"
+        android:textColor="#ffff"
+        android:textColorHighlight="#D6CF6B"
+        android:textColorLink="#D6CF6B"
+        android:textSize="16sp"
+        app:backgroundTint="#D6CF6B" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/button_login"
+        android:textColor="#ffff"
+        android:textColorHighlight="#D6CF6B"
+        android:textColorLink="#D6CF6B"
+        android:textSize="16sp"
+        app:backgroundTint="#D6CF6B" />
+
+</RelativeLayout>
